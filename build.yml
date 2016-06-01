@@ -4,7 +4,7 @@ inputs:
 - name: flight-school
 
 run:
-  path: ./flight-school/ci/test.sh
+  path: ./flight-school/ci/hello.sh
 
 image_resource:
   type: docker-image
