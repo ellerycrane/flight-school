@@ -19,7 +19,7 @@ RSpec.describe Radar, ".status_for" do
     end
 
     it "has a name" do
-      expect(status.name).to eq("John F Kennedy International Airport")
+      expect(status.name).to eq("John F Kennedy International")
     end
 
     it "has a city" do
