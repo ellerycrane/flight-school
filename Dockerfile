@@ -1,2 +1,5 @@
 FROM busybox:latest
-RUN echo "Hello, World"
+COPY ./manifest.yml /
+RUN echo "Copied Manifest"
+COPY ./app.txt /
+RUN echo "Copied App"
