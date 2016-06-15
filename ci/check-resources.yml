@@ -1,0 +1,14 @@
+platform: linux
+
+inputs:
+- name: flight-school
+- name: flight-school-deps
+
+run:
+  path: ./flight-school/ci/check-resources.sh
+
+image_resource:
+  type: docker-image
+  source:
+    repository: concourse/buildroot
+    tag: git
